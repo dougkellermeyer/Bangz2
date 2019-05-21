@@ -1817,10 +1817,15 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background:white;
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+	}
+
+	#whiteLogo{
+		height: 52px;
+		width: 52px;
 	}
 
 		#header h1 {
@@ -2229,11 +2234,9 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background: url("../../images/fulls/hair-header.jpeg"), url("../../images/intro.jpg");
+		background-size: cover;
+		background-position: center;
 	}
 
 /* One */
