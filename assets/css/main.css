@@ -2238,7 +2238,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("../../images/hair-header.jpeg"), url("../../images/intro.jpg");
+		background: url("../../images/hair-header.jpeg");
 		background-size: cover;
 		background-position: center;
 	}
@@ -2246,8 +2246,8 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
+		background: url("../../images/shop2.jpg");
+		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
@@ -2255,8 +2255,8 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
+		background: url("../../images/shop1.jpg");
+		background-size:cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
