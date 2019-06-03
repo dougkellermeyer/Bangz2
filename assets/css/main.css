@@ -2238,7 +2238,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("../../images/hair-header.jpeg");
+		background: url("../../images/shop2.jpg");
 		background-size: cover;
 		background-position: center;
 	}
@@ -2246,16 +2246,16 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("../../images/shop2.jpg");
+		background: url("../../images/shop1.jpg");
 		background-size: cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-position: center center;
 	}
 
 /* Two */
 
 	#two {
-		background: url("../../images/shop1.jpg");
+		background: url("../../images/treatments.png");
 		background-size:cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
