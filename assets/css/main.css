@@ -2253,10 +2253,18 @@ input, select, textarea {
 		background-position: center center;
 	}
 
-/* Two */
+/* Two - Ouidad */
 
 	#two {
-		background: url("../../images/treatments.png");
+		background: url("../../images/09_Poster_Template_36x24-page-001.jpg");
+		background-size:cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	/* Three - Rene Furterer */
+	#three {
+		background: url("../../images/ReneFurtererProduct1.png");
 		background-size:cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
