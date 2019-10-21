@@ -2239,7 +2239,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("../../images/shop2.jpg");
+		background-image: url("../../images/shop2.jpg");
 		background-size: cover;
 		background-position: center;
 	}
@@ -2247,7 +2247,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("../../images/shop1.jpg");
+		background-image: url("../../images/shop1.jpg");
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: center center;
@@ -2256,7 +2256,7 @@ input, select, textarea {
 /* Two - Ouidad */
 
 	#two {
-		background: url("../../images/09_Poster_Template_36x24-page-001.jpg");
+		background-image: url("../../images/09_Poster_Template_36x24-page-001.jpg");
 		background-size:cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2264,7 +2264,7 @@ input, select, textarea {
 
 	/* Three - Rene Furterer */
 	#three {
-		background: url("../../images/ReneFurtererProduct1.png");
+		background-image: url("../../images/ReneFurtererProduct1.png");
 		background-size:cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
