@@ -2265,7 +2265,7 @@ input, select, textarea {
 	/* Three - Rene Furterer */
 	#three {
 		background-image: url("../../images/ReneFurtererProduct1.png");
-		background-size:cover;
+		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
