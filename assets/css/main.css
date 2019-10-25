@@ -2270,6 +2270,13 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+	#team {
+		background-image: url("../../images/team.png");
+		background-size: cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
 /* Contact */
 
 	#contact {
