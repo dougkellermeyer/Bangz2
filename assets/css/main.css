@@ -2271,7 +2271,7 @@ input, select, textarea {
 	}
 
 	#team {
-		background-image: url("../../images/team.png");
+		background-color: lightgray;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
