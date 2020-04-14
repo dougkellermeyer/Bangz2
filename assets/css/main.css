@@ -1817,8 +1817,8 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background:white;
-		height: 3em;
+		background: black;
+		height: 4em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
@@ -1860,7 +1860,8 @@ input, select, textarea {
 				#header nav ul li {
 					display: inline-block;
 					margin-left: 0.5em;
-					font-size: 0.9em;
+					font-size: 1.25em;
+					color: white
 				}
 
 					#header nav ul li a {
@@ -1955,7 +1956,7 @@ input, select, textarea {
 				line-height: 1em;
 				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 			}
-
+			/* main landing div */
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
@@ -1967,6 +1968,12 @@ input, select, textarea {
 				transform: translateZ(0);
 				opacity: 1.0;
 				margin: 0;
+				
+			}
+
+			.main.style1 > .content > p {
+				color: black;
+				background-color: white;
 			}
 
 			.main.style1.inactive > .content {
@@ -2265,7 +2272,14 @@ input, select, textarea {
 	/* Three - Rene Furterer */
 	#three {
 		background-image: url("../../images/ReneFurtererProduct1.png");
-		background-size:cover;
+		background-size: cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	#team {
+		background-color: lightgray;
+		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
