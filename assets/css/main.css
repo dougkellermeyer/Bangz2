@@ -1901,22 +1901,6 @@ input, select, textarea {
 
 		}
 
-	#landingText {
-		background-color: white;
-		color: black;
-		margin-bottom: 30%;
-		
-	}
-
-	@media screen and (max-width:600px) {
-		#landingText {
-			margin-bottom: 225px;
-			font-size: 12px;
-			border-radius: 3px;
-			padding: 12px
-		}
-	}
-
 	body {
 		padding-top: 3em;
 	}
@@ -2017,6 +2001,15 @@ input, select, textarea {
 				position: relative;
 				width: 35%;
 				margin: 0;
+			}
+
+			@media screen and (max-width:600px) {
+				.main.style2 > .content { 
+					margin-bottom: 370px;
+					height: 200px;
+					border: 1px solid black;
+					border-radius: 3px;
+				}
 			}
 
 			.main.style2.left {
