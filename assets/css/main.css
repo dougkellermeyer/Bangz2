@@ -1818,7 +1818,7 @@ input, select, textarea {
 		top: 0;
 		width: 100%;
 		background: black;
-		height: 4em;
+		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
@@ -1872,6 +1872,7 @@ input, select, textarea {
 						line-height: 3em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
+						font-size: 0.75em
 					}
 
 		@media screen and (max-width: 736px) {
@@ -1899,6 +1900,12 @@ input, select, textarea {
 				}
 
 		}
+
+	#landingText {
+		background-color: white;
+		color: black;
+		margin-bottom: 30%
+	}
 
 	body {
 		padding-top: 3em;
@@ -1969,11 +1976,6 @@ input, select, textarea {
 				opacity: 1.0;
 				margin: 0;
 				
-			}
-
-			.main.style1 > .content > p {
-				color: black;
-				background-color: white;
 			}
 
 			.main.style1.inactive > .content {
@@ -2246,7 +2248,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-image: url("../../images/bangz_barn.jpg");
+		background-image: url("../../images/bangz_barn_opt_BW_pink_accent.jpg");
 		background-size: cover;
 		background-position: center;
 	}
@@ -2254,7 +2256,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background-image: url("../../images/shop1.jpg");
+		background-image: url("../../images/shop1_opt.jpg");
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: center center;
@@ -2271,7 +2273,7 @@ input, select, textarea {
 
 	/* Three - Rene Furterer */
 	#three {
-		background-image: url("../../images/ReneFurtererProduct1.png");
+		background-image: url("../../images/ReneFurtererProduct1_opt.png");
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
