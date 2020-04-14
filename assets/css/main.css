@@ -1910,7 +1910,7 @@ input, select, textarea {
 
 	@media screen and (max-width:600px) {
 		#landingText {
-			margin-bottom: 250px;
+			margin-bottom: 225px;
 			font-size: 12px;
 			border-radius: 3px;
 			padding: 12px
