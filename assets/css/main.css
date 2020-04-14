@@ -1904,7 +1904,17 @@ input, select, textarea {
 	#landingText {
 		background-color: white;
 		color: black;
-		margin-bottom: 30%
+		margin-bottom: 30%;
+		
+	}
+
+	@media screen and (max-width:600px) {
+		#landingText {
+			margin-bottom: 250px;
+			font-size: 12px;
+			border-radius: 3px;
+			padding: 12px
+		}
 	}
 
 	body {
