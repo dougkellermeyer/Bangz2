@@ -2003,14 +2003,7 @@ input, select, textarea {
 				margin: 0;
 			}
 
-			@media screen and (max-width:600px) {
-				.main.style2 > .content { 
-					margin-bottom: 370px;
-					height: 200px;
-					border: 1px solid black;
-					border-radius: 3px;
-				}
-			}
+	
 
 			.main.style2.left {
 				-moz-justify-content: -moz-flex-start;
@@ -2147,6 +2140,13 @@ input, select, textarea {
 					-webkit-transform: none;
 					-ms-transform: none;
 					transform: none;
+				}
+
+			#intro > div:first-of-type { 
+					margin-bottom: 370px;
+					height: 200px;
+					border: 1px solid black;
+					border-radius: 3px;
 				}
 
 			.main.style3 {
