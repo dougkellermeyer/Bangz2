@@ -1172,6 +1172,11 @@ input, select, textarea {
 	#headerLeft {
 		display: flex
 	}
+	#bangzLogo {
+		height: 3em; 
+		width: auto; 
+		margin-left: 20px
+	}
 
 		header p {
 			display: block;
@@ -1882,8 +1887,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.5em;
-				line-height: 2.5em;
+				height: 4.0em;
+				line-height: 4.0em;
 			}
 
 				#header h1 {
@@ -1902,6 +1907,12 @@ input, select, textarea {
 				#header nav {
 					display: none;
 				}
+			#headerLeft  {
+				height: 4.0em;
+			}
+			#bangzLogo {
+				height: 4.0em
+			}
 
 		}
 
