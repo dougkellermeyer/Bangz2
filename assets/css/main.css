@@ -1909,10 +1909,22 @@ input, select, textarea {
 					}
 					#header nav ul li {
 						display: flex;
+						justify-content: center;
 					}
 
 				#header nav {
 					display: none;
+				}
+
+				#header nav ul li a {
+					display: block;
+					color: inherit;
+					text-decoration: none;
+					height: 3em;
+					line-height: 3em;
+					padding: 0 0.5em 0 0.5em;
+					outline: 0;
+					font-size: 1.0em
 				}
 			#hamburger {
 				position: absolute;
