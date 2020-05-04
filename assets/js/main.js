@@ -217,3 +217,9 @@
 			});
 
 })(jQuery);
+
+
+const showNav = () => {
+	const nav = document.getElementById("mobileNav");
+	nav.style.display === "none" ? nav.style.display = "flex" : nav.style.display = "none";
+};

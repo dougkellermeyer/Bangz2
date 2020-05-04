@@ -1175,7 +1175,7 @@ input, select, textarea {
 	#bangzLogo {
 		height: 3em; 
 		width: auto; 
-		margin-left: 20px
+		margin-left: 20px;
 	}
 
 		header p {
@@ -1832,6 +1832,10 @@ input, select, textarea {
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
 
+	#mobileNav {
+		display: none;
+	}
+
 	#whiteLogo{
 		height: 52px;
 		width: 52px;
@@ -1903,15 +1907,39 @@ input, select, textarea {
 					#header h1 a {
 						font-size: 1em;
 					}
+					#header nav ul li {
+						display: flex;
+					}
 
 				#header nav {
 					display: none;
 				}
+			#hamburger {
+				position: absolute;
+				right: 1.0em;
+				top: 0.50em;
+				height: 3em;
+				line-height: 3em;
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+			}
+
+			.line1, .line2, .line3 {
+				width: 30px;
+				height: 4px;
+				background-color:#fff;
+				margin: 2px;
+			}
+		
 			#headerLeft  {
 				height: 4.0em;
 			}
 			#bangzLogo {
 				height: 4.0em
+			}
+			#mobileNav li {
+				background-color: gray;
 			}
 
 		}
