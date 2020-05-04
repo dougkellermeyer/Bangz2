@@ -1941,6 +1941,10 @@ input, select, textarea {
 			#mobileNav li {
 				background-color: gray;
 			}
+			#mobileNav ul {
+				width: 120px;
+				margin-top: 40px !important;
+			}
 
 		}
 
