@@ -441,7 +441,7 @@ input, select, textarea {
 			color: #e5e6e7;
 			content: '\f1ce';
 			cursor: default;
-			display: block;
+			display: none;
 			font-size: 2em;
 			height: 2em;
 			left: 50%;
@@ -493,6 +493,8 @@ input, select, textarea {
 
 		body:before {
 			line-height: 2.025em;
+			/* strange loading wheel appearing here */
+			display: none;
 		}
 
 	}
@@ -1957,13 +1959,14 @@ input, select, textarea {
 				width: 120px;
 				margin-top: 45px !important;
 			}
+
+			#team {
+				height: fit-content !important;
+			}
 			#teamGrid {
 				display: flex !important;
 				flex-direction: column !important;
 				height: unset !important;
-			}
-			#teamGrid > div {
-				height: 500px
 			}
 
 		}
@@ -2343,12 +2346,27 @@ input, select, textarea {
 /* Team */
 #team {
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 140%;
+	align-items: center;
+	justify-content: center;
+}
+
+#team > div:first-of-type {
+	width: 100%;
+}
+
+.stylistImage {
+	width: 250px;
+	height: auto;
 }
 
 #teamGrid {
 	display: grid; 
 	grid-template-columns: repeat(3, 33%); 
-	height: 700px;
+	width: 90%;
+	max-width: 1440px;
 }
 /* Products */
 
@@ -2357,6 +2375,7 @@ input, select, textarea {
 		background-size:cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		padding: 0px
 	}
 
 	/* Three - Rene Furterer */
@@ -2368,7 +2387,6 @@ input, select, textarea {
 	}
 
 	#team {
-		background-color: lightgray;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
