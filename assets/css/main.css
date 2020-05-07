@@ -2351,6 +2351,11 @@ input, select, textarea {
 	height: 140%;
 	align-items: center;
 	justify-content: center;
+	background-color: black;
+}
+
+.nameText{
+	color: #9a2442
 }
 
 #team > div:first-of-type {
