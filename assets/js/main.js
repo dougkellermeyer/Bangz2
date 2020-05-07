@@ -223,3 +223,15 @@ const showNav = () => {
 	const nav = document.getElementById("mobileNav");
 	nav.style.display === "none" ? nav.style.display = "flex" : nav.style.display = "none";
 };
+
+const expansionPanels = document.getElementsByClassName("expansionButton");
+
+if(expansionPanels.length > 0 && expansionPanels !== undefined) {
+	for(let i =0; i < expansionPanels.length; i++) {
+		expansionPanels[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			let content = this.nextElementSibling;
+			content.style.display === "none" ? content.style.display = "flex" : content.style.display = "none"
+		});
+	}
+}
