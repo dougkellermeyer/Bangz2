@@ -1970,15 +1970,7 @@ input, select, textarea {
 			}
 
 			.expansionButton {
-				background-color: transparent;
-				color: black;
-				cursor: pointer;
-				width: 50%;
-				border: none;
-				padding: 0px;
-				text-align: left;
-				outline: none;
-				font-size: 15px;
+				text-align: center !important;
 			}
 		
 			.active, .expansionButton:hover {
