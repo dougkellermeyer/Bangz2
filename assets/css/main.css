@@ -2355,7 +2355,8 @@ input, select, textarea {
 }
 
 .nameText{
-	color: #9a2442
+	color: #9a2442;
+	font-weight: bold;
 }
 
 #team > div:first-of-type {
