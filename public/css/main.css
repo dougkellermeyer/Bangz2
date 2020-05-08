@@ -2274,8 +2274,8 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: #39454b;
-		color: rgba(185, 186, 187, 0.5);
+		background: black;
+		color: #e91e63;
 		overflow: hidden;
 	}
 
@@ -2414,6 +2414,7 @@ input, select, textarea {
 	background-color: #9a2442;
 	margin-bottom: 20px;
 	width: 200px;
+	font-size: 0.75em;
 }
 
 .stylistWrapper {
