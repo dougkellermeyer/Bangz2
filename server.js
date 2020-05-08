@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/services', function(req, res) {
-    res.sendFile(path.join(__dirname + '/pages/services.html'));
+    res.sendFile(__dirname + '/pages/services.html');
 });
 
 app.get('/tammy', function(req, res) {
@@ -37,8 +37,10 @@ app.get('/tessa', function(req, res) {
     res.sendFile(path.join(__dirname + '/pages/tessa.html'));
 });
 
+//serve static files
 app.use('/public',express.static(__dirname + '/public'));
 
+//port and server
 var PORT = 8080;
 console.log("now serving on PORT: ", PORT)
 
