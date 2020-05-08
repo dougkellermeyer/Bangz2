@@ -1974,10 +1974,6 @@ input, select, textarea {
 				text-align: center !important;
 			}
 
-			.stylistImage {
-				max-height: 340px !important;	
-			}
-
 			.expansionButton {
 				text-align: center !important;
 			}
@@ -2430,9 +2426,9 @@ input, select, textarea {
 }
 
 .stylistImage {
-	width: 250px;
+	width: 320px;
 	height: auto;
-	margin-top: 30px;
+	max-height: 440px;
 }
 
 #teamGrid {
