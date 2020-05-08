@@ -2413,6 +2413,12 @@ input, select, textarea {
 	text-align: left;
 }
 
+.stylistInfoButton {
+	background-color: #9a2442;
+	margin-bottom: 20px;
+	width: 200px;
+}
+
 .stylistWrapper {
 	display: flex; 
 	justify-content: space-evenly;
