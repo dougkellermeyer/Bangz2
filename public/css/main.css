@@ -1992,6 +1992,10 @@ input, select, textarea {
 				margin-top: 8% !important;
 			}
 
+			.stylistInfoButton {
+				font-size: 0.9em !important;
+			}
+
 		}
 
 	body {
