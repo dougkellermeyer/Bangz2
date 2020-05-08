@@ -1947,10 +1947,11 @@ input, select, textarea {
 				height: 4.0em
 			}
 			#mobileNav li {
-				background-color: gray;
+				background-color: #f3f3f3;
+				color: #e91e63 !important;
 			}
 			#mobileNav ul {
-				width: 120px;
+				width: 150px;
 				margin-top: 45px !important;
 			}
 
