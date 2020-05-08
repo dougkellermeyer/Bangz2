@@ -1988,6 +1988,9 @@ input, select, textarea {
 				overflow: hidden;
 				background-color: transparent;
 			}
+			.pageWrapper {
+				margin-top: 8% !important;
+			}
 
 		}
 
@@ -2402,6 +2405,11 @@ input, select, textarea {
 	font-weight: bold;
 	font-size: 1.5em;
 	text-align: left;
+}
+
+.pageWrapper {
+	margin-top: 5%;
+	height: 100%;
 }
 
 .stylistBackgroundText{
