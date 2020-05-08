@@ -1954,6 +1954,10 @@ input, select, textarea {
 				margin-top: 45px !important;
 			}
 
+			#intro {
+				height: 120% !important;
+			}
+
 			#team {
 				height: fit-content !important;
 			}
