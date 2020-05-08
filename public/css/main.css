@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
-/*
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -688,7 +682,7 @@ input, select, textarea {
 			height: 5em;
 			line-height: 4.5em;
 			padding: 0;
-			background-image: url("images/dark-arrow.svg");
+			background-image: url("../../public/images/dark-arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			text-indent: -10em;
@@ -763,7 +757,7 @@ input, select, textarea {
 			input[type="reset"].style2.down,
 			.button.style2.down,
 			button.style2.down {
-				background-image: url("images/arrow.svg");
+				background-image: url("../../public/images/arrow.svg");
 			}
 
 /* Form */
@@ -1306,7 +1300,7 @@ input, select, textarea {
 			position: absolute;
 			width: 96px;
 			height: 64px;
-			background: url("images/poptrox-nav.svg");
+			background: url("../../public/images/poptrox-nav.svg");
 			top: calc(50% - 1.5em);
 			margin: -32px 0 0 0;
 		}
@@ -1372,7 +1366,7 @@ input, select, textarea {
 				height: 40px;
 				border-radius: 100%;
 				box-shadow: inset 0 0 0 2px #fff;
-				background: url("images/poptrox-closer.svg") center center;
+				background: url("../../public/images/poptrox-closer.svg") center center;
 				color: #ffffff !important;
 			}
 
@@ -2167,7 +2161,7 @@ input, select, textarea {
 				}
 
 				.main.dark .button.style2.down {
-					background-image: url("images/dark-arrow.svg");
+					background-image: url("../../public/images/dark-arrow.svg");
 				}
 
 		body.is-touch .main {
@@ -2346,7 +2340,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background-image: url("../../images/bangz_barn_opt_BW_pink_accent.jpg");
+		background-image: url("../../public/images/bangz_barn_opt_BW_pink_accent.jpg");
 		background-size: cover;
 		background-position: center;
 	}
@@ -2377,7 +2371,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background-image: url("../../images/shop1_opt_B_W_4.png");
+		background-image: url("../../public/images/shop1_opt_B_W_4.png");
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: center center;
@@ -2385,7 +2379,7 @@ input, select, textarea {
 /* Services*/
 
 #services {
-	background-image: url("../../images/bangzWoodSign.png");
+	background-image: url("../../public/images/bangzWoodSign.png");
 	background-size: cover;
 	background-attachment: fixed, fixed;
 	background-position: center center;
@@ -2436,7 +2430,7 @@ input, select, textarea {
 /* Products */
 
 	#products {
-		background-image: url("../../images/09_Poster_Template_36x24-page-001.jpg");
+		background-image: url("../../public/images/09_Poster_Template_36x24-page-001.jpg");
 		background-size:cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2445,7 +2439,7 @@ input, select, textarea {
 
 	/* Three - Rene Furterer */
 	#three {
-		background-image: url("../../images/ReneFurtererProduct1_opt.png");
+		background-image: url("../../public/images/ReneFurtererProduct1_opt.png");
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
