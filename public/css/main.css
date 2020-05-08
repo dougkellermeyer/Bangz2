@@ -2405,6 +2405,7 @@ input, select, textarea {
 	font-weight: bold;
 	font-size: 1.5em;
 	text-align: left;
+	margin-top: 10px;
 }
 
 .pageWrapper {
