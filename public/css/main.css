@@ -1881,7 +1881,8 @@ input, select, textarea {
 						line-height: 3em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
-						font-size: 0.75em
+						font-size: 0.75em;
+						font-weight: bold;
 					}
 
 		@media screen and (max-width: 736px) {
@@ -1989,7 +1990,7 @@ input, select, textarea {
 				overflow: hidden;
 				background-color: transparent;
 			}
-			.pageWrapper {
+			.servicesHeader {
 				margin-top: 8% !important;
 			}
 
@@ -2413,9 +2414,10 @@ input, select, textarea {
 	margin-top: 10px;
 }
 
-.pageWrapper {
-	margin-top: 5%;
-	height: 100%;
+.servicesHeader {
+	margin-top: 3%;
+	height: 20%;
+	text-align: center;
 }
 
 .stylistBackgroundText{
