@@ -2463,9 +2463,14 @@ input, select, textarea {
 	/* Three - Rene Furterer */
 	#three {
 		background-image: url("../../public/images/ReneFurtererProduct1_opt.png");
-		background-size: cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background-size: auto;
+		background-position-x: 450px;
+	}
+
+	#reuzel {
+		background-image: url("../../public/images/reuzelCans.jpg");
+		background-size: auto;
+		background-position-x: 450px;
 	}
 
 	#team {
