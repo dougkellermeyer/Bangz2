@@ -2007,7 +2007,9 @@ input, select, textarea {
 				margin-bottom: 20px !important;
 			}
 
-
+			.reviews {
+				margin: 0 10% 0 10% !important;
+			}
 			.servicesHeaderStylist {
 				margin-top: 10% !important;
 				height: 10% !important;
@@ -2500,10 +2502,10 @@ input, select, textarea {
 
 .reviews {
 	text-align: center;
+	margin: 0 15% 0 15%;
 }
 
 .reviewContent {
-	margin: 0 15% 0 15%;
 	font-size: 0.85em;
 	text-align: left;
 	font-style: italic;
