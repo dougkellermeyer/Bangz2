@@ -2396,6 +2396,34 @@ input, select, textarea {
 	background-position: center center;
 }
 
+.servicesContentWrapper {
+	display: flex;
+}
+.servicesMenu {
+	width: 50%;
+	text-align: center;
+}
+
+.servicesMenuItem {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-right: 4%;
+	margin-left: 4%;
+}
+
+.servicesMenuItemTypes {
+	display: flex; 
+	flex-direction: column; 
+	text-align: right;
+}
+
+.servicePictures {
+	width: 50%;
+	height: 500px;
+	background-image: url("../../public/images/reuzelCans.jpg")
+}
+
 /* Team */
 #team {
 	text-align: center;
@@ -2416,8 +2444,11 @@ input, select, textarea {
 
 .servicesHeader {
 	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
 	height: 20%;
 	text-align: center;
+	margin-bottom: 50px;
 }
 
 .stylistBackgroundText{
