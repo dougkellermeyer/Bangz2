@@ -2207,6 +2207,10 @@ input, select, textarea {
 				width: 50%;
 			}
 
+			.stylistImage {
+				margin-right: 5% !important;
+			}
+
 		}
 
 		@media screen and (max-width: 1000px) {
@@ -2414,10 +2418,18 @@ input, select, textarea {
 
 .servicesContentWrapper {
 	display: flex;
+	justify-content: space-between;
 }
+
 .servicesMenu {
-	width: 50%;
-	text-align: center;
+	width: 45%;
+}
+
+.servicesStylistSectionTitle {
+	text-transform: uppercase; 
+	font-weight: bold; 
+	font-size: 1.25em; 
+	text-decoration: underline; margin-bottom: 20px
 }
 
 .servicesMenuItem {
@@ -2435,9 +2447,17 @@ input, select, textarea {
 }
 
 .servicePictures {
-	width: 50%;
+	width: 100%;
 	height: 500px;
 	background-image: url("../../public/images/reuzelCans.jpg")
+}
+
+.scheduleCertPictureWrapper {
+	text-align: left; 
+	display: flex; 
+	flex-direction: row; 
+	width: 50%; 
+	justify-content: space-between; flex-wrap: wrap;
 }
 
 /* Team */
@@ -2455,16 +2475,29 @@ input, select, textarea {
 	font-weight: bold;
 	font-size: 1.5em;
 	text-align: left;
-	margin-top: 10px;
 }
 
 .servicesHeader {
 	margin-top: 3%;
 	margin-left: 5%;
 	margin-right: 5%;
-	height: 20%;
+	height: 25%;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+}
+
+.servicesHeaderTitle {
+	font-size: 2.5em;
+	text-transform: uppercase;
+}
+
+.servicesHeaderStylist {
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 15%;
+	text-align: center;
+	margin-bottom: 30px;
 }
 
 .stylistBackgroundText{
