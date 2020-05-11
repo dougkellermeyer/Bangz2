@@ -2467,6 +2467,11 @@ input, select, textarea {
 	margin-left: 4%;
 }
 
+.servicesMenuItemTitle {
+	font-weight: bold; 
+	text-transform: uppercase;
+}
+
 .servicesMenuItemTypes {
 	display: flex; 
 	flex-direction: column; 
