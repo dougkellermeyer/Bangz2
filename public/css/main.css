@@ -1991,11 +1991,27 @@ input, select, textarea {
 				background-color: transparent;
 			}
 			.servicesHeader {
-				margin-top: 8% !important;
+				margin-top: 11% !important;
 			}
 
 			.stylistInfoButton {
 				font-size: 0.9em !important;
+			}
+
+			.servicesContentWrapper {
+				flex-direction: column !important;
+			}
+
+			.servicePictures {
+				width: 100% !important;
+			}
+
+			.servicesMenu {
+				width: 100% !important;
+			}
+
+			.servicesMenuItem {
+				margin-top: 5% !important;
 			}
 
 		}
