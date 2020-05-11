@@ -2498,6 +2498,17 @@ input, select, textarea {
 	justify-content: space-between; flex-wrap: wrap;
 }
 
+.reviews {
+	text-align: center;
+}
+
+.reviewContent {
+	margin: 0 15% 0 15%;
+	font-size: 0.85em;
+	text-align: left;
+	font-style: italic;
+}
+
 /* Team */
 #team {
 	text-align: center;
