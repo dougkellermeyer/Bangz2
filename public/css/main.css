@@ -2530,12 +2530,17 @@ input, select, textarea {
 
 .reviews {
 	text-align: center;
+	margin-top: 5%;
 }
 
 .reviewContent {
 	font-size: 0.85em;
 	text-align: left;
 	font-style: italic;
+}
+
+.socialHandle {
+	color: #e91e63
 }
 
 /* Team */
