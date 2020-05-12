@@ -2240,6 +2240,10 @@ input, select, textarea {
 				margin-right: 5% !important;
 			}
 
+			.stylistImage2 {
+				margin-right: 5% !important
+			}
+
 		}
 
 		@media screen and (max-width: 1000px) {
@@ -2596,6 +2600,12 @@ input, select, textarea {
 	width: 320px;
 	height: auto;
 	max-height: 440px;
+}
+
+.stylistImage2 {
+	width: 320px;
+	height: auto;
+	max-height: 400px;
 }
 
 #teamGrid {
