@@ -2007,13 +2007,22 @@ input, select, textarea {
 				margin-bottom: 20px !important;
 			}
 
+			.servicePagePictures {
+				width: 100% !important;
+				margin-bottom: 20px !important;
+			}
+
 			.reviews {
 				margin: 0 10% 0 10% !important;
 			}
 			.servicesHeaderStylist {
 				margin-top: 10% !important;
-				height: 10% !important;
+				height: 14% !important;
 				margin-bottom: 10px !important;
+			}
+
+			.servicesHeaderTitle {
+				line-height: 0.75em;
 			}
 
 			.scheduleWrapper {
@@ -2486,10 +2495,16 @@ input, select, textarea {
 	background-image: url("../../public/images/reuzelCans.jpg")
 }
 
+.servicePagePictures {
+	width: 50%;
+	height: 500px;
+	background-image: url("../../public/images/reuzelCans.jpg")
+
+}
+
 .scheduleWrapper {
 	display: flex; 
 	flex-direction: column; 
-	margin-bottom: 20%
 }
 
 .scheduleCertPictureWrapper {
@@ -2497,7 +2512,9 @@ input, select, textarea {
 	display: flex; 
 	flex-direction: row; 
 	width: 50%; 
-	justify-content: space-between; flex-wrap: wrap;
+	justify-content: space-between; 
+	flex-wrap: wrap;
+	max-width: 650px;
 }
 
 .reviews {
