@@ -2033,6 +2033,7 @@ input, select, textarea {
 				width: 100% !important;
 				text-align: center !important;
 				flex-direction: column !important; 
+				max-width: 100% !important;
 			}
 
 			.servicesMenu {
@@ -2055,6 +2056,12 @@ input, select, textarea {
 				padding-top: 2.5em;
 			}
 
+		}
+
+		@media screen and (max-height: 600px) {
+			body {
+				min-height: 130% !important;
+			}
 		}
 
 /* Main */
@@ -2518,7 +2525,7 @@ input, select, textarea {
 	width: 50%; 
 	justify-content: space-between; 
 	flex-wrap: wrap;
-	max-width: 650px;
+	max-width: 45%;
 }
 
 .reviews {
