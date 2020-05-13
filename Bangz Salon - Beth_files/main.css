@@ -1180,7 +1180,7 @@ input, select, textarea {
 			padding: 0 0 0.5em 0;
 		}
 
-	.footer {
+	footer {
 		margin-top: 2em;
 	}
 
@@ -2305,7 +2305,7 @@ input, select, textarea {
 
 /* Footer */
 
-	.footer {
+	#footer {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2321,7 +2321,6 @@ input, select, textarea {
 		width: 100%;
 		bottom: 0;
 		margin: 0;
-		margin-top: auto;
 		line-height: 1em;
 		padding: 1.5em;
 		background: black;
@@ -2329,30 +2328,30 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		.footer > * {
+		#footer > * {
 			margin-bottom: 0;
 		}
 
-		.footer a {
+		#footer a {
 			color: inherit;
 		}
 
-			.footer a:hover {
+			#footer a:hover {
 				color: #b9babb;
 			}
 
-		.footer ul.menu {
+		#footer ul.menu {
 			margin: 0;
 		}
 
-			.footer ul.menu li {
+			#footer ul.menu li {
 				border-left-color: rgba(185, 186, 187, 0.2);
 				font-size: 0.9em;
 			}
 
 		@media screen and (max-width: 1000px) {
 
-			.footer {
+			#footer {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
@@ -2366,7 +2365,7 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em;
 			}
 
-				.footer > * {
+				#footer > * {
 					margin: 0 0 1em 0;
 				}
 
@@ -2374,7 +2373,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.footer ul.menu li {
+			#footer ul.menu li {
 				border-left: none;
 				display: block;
 				line-height: inherit;
@@ -2382,7 +2381,7 @@ input, select, textarea {
 				padding: 0.25em 0 0 0;
 			}
 
-				.footer ul.menu li:first-child {
+				#footer ul.menu li:first-child {
 					margin-top: 0;
 					padding-top: 0;
 				}

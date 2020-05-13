@@ -29,8 +29,8 @@ app.get('/pages/jackie', function(req, res) {
     res.sendFile(path.join(__dirname + '/pages/jackie.html'));
 });
 
-app.get('/pages/sheila', function(req, res) {
-    res.sendFile(path.join(__dirname + '/pages/sheila.html'));
+app.get('/pages/shelia', function(req, res) {
+    res.sendFile(path.join(__dirname + '/pages/shelia.html'));
 });
 
 app.get('/pages/tessa', function(req, res) {
