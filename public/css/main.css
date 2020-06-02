@@ -2553,6 +2553,12 @@ input, select, textarea {
 	background-color: black;
 }
 
+#teamHeader {
+	background-color: #9a2442; 
+	font-size: 2.25em;
+	color: black;
+}
+
 .nameText{
 	color: #9a2442;
 	font-weight: bold;
