@@ -2526,6 +2526,7 @@ input, select, textarea {
 	justify-content: space-between; 
 	flex-wrap: wrap;
 	max-width: 45%;
+	height: fit-content;
 }
 
 .reviews {
