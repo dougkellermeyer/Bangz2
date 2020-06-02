@@ -2625,6 +2625,12 @@ input, select, textarea {
 	max-height: 400px;
 }
 
+.stylistImageMask {
+	width: 320px;
+	height: auto;
+	max-height: 400px;
+}
+
 #teamGrid {
 	width: 90%;
 }
