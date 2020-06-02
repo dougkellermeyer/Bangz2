@@ -2450,10 +2450,11 @@ input, select, textarea {
 /* Services*/
 
 #services {
-	background-image: url("../../public/images/bangzWoodSign_B_W.png");
+	background-image: url("../../public/images/services_collage.png");
 	background-size: cover;
 	background-attachment: fixed, fixed;
 	background-position: center center;
+	background-color: black;
 }
 
 .servicesContentWrapper {
