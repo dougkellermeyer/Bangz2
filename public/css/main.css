@@ -2305,7 +2305,7 @@ input, select, textarea {
 					margin-bottom: 370px;
 					border: 1px solid black;
 					border-radius: 3px;
-					margin-top: -60px;
+					margin-top: -50px;
 				}
 
 			.main.style3 {
@@ -2509,8 +2509,6 @@ input, select, textarea {
 .servicePagePictures {
 	width: 50%;
 	height: 500px;
-	background-image: url("../../public/images/reuzelCans.jpg")
-
 }
 
 .scheduleWrapper {
