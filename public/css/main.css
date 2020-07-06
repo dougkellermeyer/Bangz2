@@ -2033,6 +2033,7 @@ input, select, textarea {
 				width: 100% !important;
 				text-align: center !important;
 				flex-direction: column !important; 
+				max-width: 100% !important;
 			}
 
 			.servicesMenu {
@@ -2055,6 +2056,12 @@ input, select, textarea {
 				padding-top: 2.5em;
 			}
 
+		}
+
+		@media screen and (max-height: 600px) {
+			body {
+				min-height: 130% !important;
+			}
 		}
 
 /* Main */
@@ -2240,6 +2247,10 @@ input, select, textarea {
 				margin-right: 5% !important;
 			}
 
+			.stylistImage2 {
+				margin-right: 5% !important
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2300,7 +2311,7 @@ input, select, textarea {
 					margin-bottom: 370px;
 					border: 1px solid black;
 					border-radius: 3px;
-					/* margin-top: 100px; */
+					margin-top: -50px;
 				}
 
 			.main.style3 {
@@ -2445,10 +2456,11 @@ input, select, textarea {
 /* Services*/
 
 #services {
-	background-image: url("../../public/images/bangzWoodSign.png");
+	background-image: url("../../public/images/services_collage.png");
 	background-size: cover;
 	background-attachment: fixed, fixed;
 	background-position: center center;
+	background-color: black;
 }
 
 .servicesContentWrapper {
@@ -2504,8 +2516,6 @@ input, select, textarea {
 .servicePagePictures {
 	width: 50%;
 	height: 500px;
-	background-image: url("../../public/images/reuzelCans.jpg")
-
 }
 
 .scheduleWrapper {
@@ -2520,18 +2530,23 @@ input, select, textarea {
 	width: 50%; 
 	justify-content: space-between; 
 	flex-wrap: wrap;
-	max-width: 650px;
+	max-width: 45%;
+	height: fit-content;
 }
 
 .reviews {
 	text-align: center;
-	margin: 0 15% 0 15%;
+	margin-top: 5%;
 }
 
 .reviewContent {
 	font-size: 0.85em;
 	text-align: left;
 	font-style: italic;
+}
+
+.socialHandle {
+	color: #e91e63
 }
 
 /* Team */
@@ -2542,6 +2557,12 @@ input, select, textarea {
 	align-items: center;
 	justify-content: center;
 	background-color: black;
+}
+
+#teamHeader {
+	background-color: #9a2442; 
+	font-size: 2.25em;
+	color: black;
 }
 
 .nameText{
@@ -2602,6 +2623,18 @@ input, select, textarea {
 	width: 320px;
 	height: auto;
 	max-height: 440px;
+}
+
+.stylistImage2 {
+	width: 320px;
+	height: auto;
+	max-height: 400px;
+}
+
+.stylistImageMask {
+	width: 320px;
+	height: auto;
+	max-height: 400px;
 }
 
 #teamGrid {
