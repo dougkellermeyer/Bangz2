@@ -2040,6 +2040,10 @@ input, select, textarea {
 				width: 100% !important;
 			}
 
+			.servicesPageMenu {
+				width: 100% !important;
+			}
+
 			.servicesMenuItem {
 				margin-top: 5% !important;
 			}
@@ -2469,8 +2473,18 @@ input, select, textarea {
 	margin: 3%;
 }
 
+.servicesPageContentWrapper {
+	display: flex;
+	justify-content: center;
+	margin: 3%;
+}
+
 .servicesMenu {
 	width: 45%;
+}
+
+.servicesPageMenu {
+	width: 60%;
 }
 
 .servicesStylistSectionTitle {
