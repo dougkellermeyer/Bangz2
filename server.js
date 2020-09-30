@@ -38,7 +38,7 @@ app.get('/pages/tessa', function(req, res) {
 });
 
 app.get('/covid', function(req, res) {
-    res.sendFile(path.join(__dirname + '/pages/covid.html'));
+    res.sendFile(path.join(__dirname + '/covid.html'));
 });
 
 //serve static files
