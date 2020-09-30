@@ -1990,6 +1990,14 @@ input, select, textarea {
 				overflow: hidden;
 				background-color: transparent;
 			}
+			.covidUpdate {
+				/* display: none; */
+			}
+
+			.covidHeader {
+				margin-top: 60px
+			}
+
 			.servicesHeader {
 				margin-top: 11% !important;
 			}
@@ -2041,7 +2049,7 @@ input, select, textarea {
 			}
 
 			.servicesPageMenu {
-				width: 100% !important;
+				width: 100% !important;	
 			}
 
 			.servicesMenuItem {
@@ -2447,6 +2455,35 @@ input, select, textarea {
 		display: none;
 		overflow: hidden;
 		background-color: transparent;
+	}
+
+	.covidUpdate {
+		background-color: #9a2442;
+		color: white;
+		width: auto;
+		font-size: 0.75em;
+		height: auto;
+		line-height: 1.7;
+		min-height: 50px;
+		font-weight: bold;
+	}
+
+	.covidUpdate:hover {
+		background-color:#9a2442;
+	}
+	.covidUpdateMobile {
+		display: none;
+	}
+
+	.covidHeader {
+		color: #9a2442;
+		text-align: center;
+		font-size: 2rem;
+		margin-top: 20px
+	}
+
+	.covidParagraph {
+		margin: 50px;
 	}
 
 /* One */
