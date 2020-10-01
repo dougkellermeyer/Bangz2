@@ -1995,7 +1995,19 @@ input, select, textarea {
 			}
 
 			.covidHeader {
-				margin-top: 60px
+				margin-top: 60px !important;
+			}
+			.covidList {
+				margin: 30px !important;
+			}
+			.covidParagraph {
+				margin: 30px !important;
+			}
+
+			#contactWrapper {
+				width: 300px !important;
+				margin-right: 30px !important;
+				margin-left: 30px !important;
 			}
 
 			.servicesHeader {
@@ -2482,8 +2494,39 @@ input, select, textarea {
 		margin-top: 20px
 	}
 
+	.covidList {
+		list-style: inside;
+		list-style-type: circle;
+		margin: 50px;
+		margin-top: 20px;
+	}
+
+	.covidList li {
+		margin-bottom: 10px;
+	}
+
 	.covidParagraph {
 		margin: 50px;
+	}
+
+	#contactWrapper {
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+		width: 500px;
+	}
+
+	.covidContact {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.covidPhone {
+		color: black; 
+		margin-left: 20px; 
+		text-decoration: none; 
+		font-size: 1.25em
 	}
 
 /* One */
