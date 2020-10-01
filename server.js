@@ -37,7 +37,7 @@ app.get('/pages/tessa', function(req, res) {
     res.sendFile(path.join(__dirname + '/pages/tessa.html'));
 });
 
-app.get('/covid', function(req, res) {
+app.get('/pages/covid', function(req, res) {
     res.sendFile(path.join(__dirname + '/pages/covid.html'));
 });
 
