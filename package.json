@@ -1,0 +1,25 @@
+{
+  "name": "bangz2",
+  "version": "1.0.0",
+  "description": "Bangz Salon built with HTML5Up templage",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougkellermeyer/Bangz2.git"
+  },
+  "author": "Doug Kellermeyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougkellermeyer/Bangz2/issues"
+  },
+  "homepage": "https://github.com/dougkellermeyer/Bangz2#readme"
+}
