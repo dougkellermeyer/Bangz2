@@ -5,272 +5,389 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Bangz Salon</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="public/css/main.css" />
-		<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap" rel="stylesheet">
-		<noscript><link rel="stylesheet" href="public/css/noscript.css" /></noscript>
-		<script src="public/js/date.js"></script>
-	</head>
 
-	<body class="is-preload">
+<head>
+	<title>Bangz Salon</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="public/css/main.css" />
+	<link href="https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap" rel="stylesheet">
+	<noscript>
+		<link rel="stylesheet" href="public/css/noscript.css" />
+	</noscript>
+	<script src="public/js/date.js"></script>
+</head>
 
-		<!-- Header -->
-		<header id="header">
-			<div id="headerLeft">
-				<a style="max-height: 2.5em" href="#intro"><img id="bangzLogo" src="./public/images/bangzLogo.png"></a>
-				<!--TODO put a start instead of the hyphen 248-8140-->
-				<a href="tel:5852488140" style="color: white; margin-left: 20px; text-decoration: none; font-size: 1.25em">(585) 248-8140</a>
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div id="headerLeft">
+			<a style="max-height: 2.5em" href="#intro"><img id="bangzLogo" src="./public/images/bangzLogo.png"></a>
+			<!--TODO put a start instead of the hyphen 248-8140-->
+			<a href="tel:5852488140"
+				style="color: white; margin-left: 20px; text-decoration: none; font-size: 1.25em">(585) 248-8140</a>
+		</div>
+		<nav>
+			<ul>
+				<li class="navLink"><a href="#one">About</a></li>
+				<li class="navLink"><a href="#services">Services</a></li>
+				<li class="navLink"><a href="#team">Team</a></li>
+				<li class="navLink"><a href="#products">Products</a></li>
+				<li class="navLink"><a href="#footer">Contact</a></li>
+			</ul>
+		</nav>
+		<div>
+			<div onclick="showNav()" id="hamburger">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+				<nav id="mobileNav">
+					<ul>
+						<li class="navLink"><a href="#one">About</a></li>
+						<li class="navLink"><a href="#services">Services</a></li>
+						<li class="navLink"><a href="#team">Team</a></li>
+						<li class="navLink"><a href="#products">Products</a></li>
+						<li class="navLink"><a href="#footer">Contact</a></li>
+					</ul>
+				</nav>
 			</div>
-			<nav>
-				<ul>
-					<li class="navLink"><a href="#one">About</a></li>
-					<li class="navLink"><a href="#services">Services</a></li>
-					<li class="navLink"><a href="#team">Team</a></li>
-					<li class="navLink"><a href="#products">Products</a></li>
-					<li class="navLink"><a href="#footer">Contact</a></li>
-				</ul>
-			</nav>
+		</div>
+
+	</header>
+
+	<!-- Intro -->
+	<section id="intro" class="main style2 right dark fullscreen">
+		<div id="landingTextDiv" class="content box style2">
+			<header>
+				<h2>Welcome to Bangz!</h2>
+			</header>
+			<p>We’re more than a salon, we’re a place you can get away from it all and spend some time focused on you
+				for a change in the company of friends - even if it’s only for an hour or so. </p>
+			<button type="button" class="expansionButton">Read More</button>
+			<div class="expansionContent">
+				<p>
+					We are here to make you look and feel fabulous - from head to toe. Whether you’re getting ready for
+					a special occasion, or looking for a new style , we’ll help you find your perfect look!
+				</p>
+			</div>
 			<div>
-				<div onclick="showNav()" id="hamburger">
-					<div class="line1"></div>
-					<div class="line2"></div>
-					<div class="line3"></div>
-					<nav id="mobileNav">
-						<ul>
-							<li class="navLink"><a href="#one">About</a></li>
-							<li class="navLink"><a href="#services">Services</a></li>
-							<li class="navLink"><a href="#team">Team</a></li>
-							<li class="navLink"><a href="#products">Products</a></li>
-							<li class="navLink"><a href="#footer">Contact</a></li>
-						</ul>	
-					</nav>
-				</div>
+				<a href="/pages/covid">
+					<button class="covidUpdate">Click here for our COVID-19 update
+					</button>
+				</a>
 			</div>
-	
-		</header>
+		</div>
+	</section>
 
-		<!-- Intro -->
-			<section id="intro" class="main style2 right dark fullscreen">
-				<div id="landingTextDiv" class="content box style2">
-					<header>
-						<h2>Welcome to Bangz!</h2>
-					</header>
-					<p>We’re more than a salon, we’re a place you can get away from it all and spend some time focused on you for a change in the company of friends - even if it’s only for an hour or so. </p>
-					<button type="button" class="expansionButton">Read More</button>
-					<div class="expansionContent">
-						<p>
-							We are here to make you look and feel fabulous - from head to toe. Whether you’re getting ready for a special occasion, or looking for a new style , we’ll help you find your perfect look!
-						</p>
-					</div>
+	<!-- One -->
+	<section id="one" class="main style2 right dark fullscreen">
+		<div class="content box style2">
+			<header>
+				<h2>About</h2>
+			</header>
+			<p>Since Bangz started in 2002, it's been our mission to take classes on the latest and greatest from the
+				best in the biz so we're always offering you the most current looks, using the newest techniques and
+				best products.</p>
+		</div>
+		<!-- <a href="#products" class="button style2 down anchored">Next</a> -->
+	</section>
+
+	<!-- Services -->
+	<section id="services" class="main style2 left dark fullscreen">
+		<div class="content box style2">
+			<header>
+				<h2>Services</h2>
+				<p>Cuts, Colors, Highlights, Balayage, Extensions, Styling, and <a style="color: #9a2542;"
+						href="/pages/services">more!</a></p>
+			</header>
+		</div>
+	</section>
+
+	<!-- Team -->
+	<section id="team">
+		<div style="background-color: black; margin: 25px">
+			<header style="margin-bottom: 0px">
+				<h2 id="teamHeader">Our Team</h2>
+				<!-- //TODO star (like the Bangz logo) -->
+			</header>
+		</div>
+		<!-- grid container -->
+		<div id="teamGrid">
+			<div>
+				<div class="stylistWrapper">
+					<!--Placeholder image-->
+					<img class="stylistImage2" src="./public/images/TammyPIC2_edited_B_W.png">
 					<div>
-						<a href="/pages/covid">
-							<button class="covidUpdate">Click here for our COVID-19 update
-							</button>
+						<p class="nameText">Tammy Allen</p>
+						<p class="stylistBackgroundText">I knew I was going to be a stylist since I was a kid. Quite
+							frankly, my inspiration was getting one Toni home perm too many! My mom would give my sister
+							and I these home perms and we'd come out looking like a pack of poodles instead of the glam
+							queens the box promised. One day I said, "That's enough! There's got to be a better way!"
+							And the next thing you know I was a stylist. I love what I do. Every day. I love making my
+							clients feel pretty. It's great to see them sneak peeks at themselves as they leave the
+							salon with a smile. I remember what bad had hair feels like and I always try to think like
+							and feel for the person in my chair.​ Follow me <span><a class="socialHandle"
+									href="https://www.instagram.com/bangzsalon_rochester/">@bangzsalon_rochester</a></span>
+						</p>
+						<a href="/pages/tammy">
+							<button class="stylistInfoButton">Info & Prices</button>
 						</a>
 					</div>
 				</div>
-			</section>
-
-		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>About</h2>
-					</header>
-					<p>Since Bangz started in 2002, it's been our mission to take classes on the latest and greatest from the best in the biz so we're always offering you the most current looks, using the newest techniques and best products.</p>
+			</div>
+			<div>
+				<div class="stylistWrapper">
+					<!--Placeholder image-->
+					<img class="stylistImage" src="./public/images/beth_new_B_W.png">
+					<div>
+						<p class="nameText">Beth D'Angelo-Schroth</p>
+						<p class="stylistBackgroundText">I've had this passion for hair and beauty for as long as I can
+							remember. From curling my Mom's hair when i was four, to cutting and coloring my Barbies'
+							hair until they had no hair left. I love making a difference in people's lives by making
+							them feel pretty when they leave. And just listening and talking to them for an hour or so
+							while they're here. I strive for unlimited creativity. And that starts with listening to my
+							clients and respecting their needs. And their hair. I'm also the new mom to an adorable baby
+							girl, Grace Marie. And I look forward to styling her hair too. </p>
+						<a href="/pages/beth">
+							<button class="stylistInfoButton">Info & Prices</button>
+						</a>
+					</div>
 				</div>
-				<!-- <a href="#products" class="button style2 down anchored">Next</a> -->
-			</section>
+			</div>
+			<div>
+				<div class="stylistWrapper">
+					<img class="stylistImage" src="./public/images/Sofia_B_W.png" alt="Sofia">
+					<div>
+						<p class="nameText">Sofia Alvarez</p>
+						<p class="stylistBackgroundText">From the moment I knew what styling hair was, it was all I
+							wanted to do. Both of my parents were hairdressers. And even as a kid, I used to trap my
+							family and friends in the bathroom and make them let me do their hair! Cuts. Colors. I
+							couldn't help myself! I was obsessed. Needless to say, I went to school and learned how to
+							do it right, and now I'm doing what I know I was born to do. I love changing people's looks
+							and attitudes. Creating looks that are artistic and modern, yet maintainable is what I
+							strive to do for each client. Face it, great hair makes people happy. And that makes me
+							happy! </p>
+						<a href="/pages/sofia">
+							<button class="stylistInfoButton">Info & Prices</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="stylistWrapper">
+					<img class="stylistImage" src="./public/images/Jackie_B_W.png" alt="Jackie">
+					<div>
+						<p class="nameText">Jackie Varone</p>
+						<p class="stylistBackgroundText">As the daughter of a Master Barber, I grew up hanging around
+							the barber chair. I began to cut hair at 13 years old, basically for anyone that would let
+							me. To my surprise, they kept coming back for more! I don't believe people should have to
+							settle for a bad haircut, and simply be told," It's only hair, it will grow back!" My
+							philosophy is this..."You have to look in the mirror everyday, and either love, or hate your
+							hair!" So I strive to give my clients -- both men and women -- The Perfect Cut, and keep
+							them coming back. So don't settle, don't make today another "Hat Day." Love your hair!
+						</p>
+						<a href="/pages/jackie">
+							<button class="stylistInfoButton">Info & Prices</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="stylistWrapper">
+					<img class="stylistImage" src="./public/images/Shelia_B_W.png" alt="Sheila">
+					<div>
+						<p class="nameText">Sheila Peters</p>
+						<p class="stylistBackgroundText">I don’t remember if its when I mixed food coloring with flour
+							to color the neighborhood kids hair or when my friend’s mother called mine upset that I cut
+							her “Chrissy” doll’s hair; shortly after that I spent my Saturdays at my father’s salon
+							sweeping floors and folding towels. 40+ years later I still sweep floors and fold towels
+							however, now its after haircuts, coloring, highlights, perms and creating other looks on
+							both women and men. Adding beauty and confidence to people’s looks is my daily goal. Follow
+							me <span><a class="socialHandle"
+									href="https://www.instagram.com/sheilapetershair/">@sheilapetershair</a></span>
+						</p>
+						<a href="/pages/shelia">
+							<button class="stylistInfoButton">Info & Prices</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="stylistWrapper">
+					<img class="stylistImage2" src="./public/images/TessaPIC_B_W.png">
+					<div>
+						<p class="nameText">Tessa Glaze</p>
+						<p class="stylistBackgroundText">Ever since I was little, I always knew that I wanted to do
+							hair. Watching my mom and how hard she worked to be where she is today inspired me to follow
+							in her footsteps . Seeing how a haircut, some highlights or a complete makeover could make a
+							person light up in the chair was the best thing to see. I knew from then on that I wanted to
+							be a part of that and make people feel and look beautiful! The salon and all the ladies that
+							work here are family to me, and we will treat you just like family too. Follow me <span><a
+									class="socialHandle"
+									href="https://www.instagram.com/tessa_does_hair/">@tessa_does_hair</a></span></p>
+						<a href="/pages/tessa">
+							<button class="stylistInfoButton">Info & Prices</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="stylistWrapper">
+					<!--Rebecca's image here-->
+					<img class="stylistImage2" src="./public/images/madison_B_W.png">
+					<div>
+						<p class="nameText">Madison Raco</p>
+						<p class="stylistBackgroundText">Growing up with two sisters I was constantly being called upon
+							to do their braids on vacations or curls for their formal events. I always knew I wanted my
+							career to be fun and creative, hairstyling was the perfect path for me to go down! Making
+							someone feel beautiful and confident is what I love about hairstyling! </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <a href="#products" class="button style2 down anchored">Next</a> -->
+	</section>
+	<!-- Products -->
+	<section id="products" class="main style2 left dark fullscreen">
+		<div class="content box style2">
+			<header>
+				<h2>Ouidad</h2>
+			</header>
+			<p>We were the first salon in Rochester trained and certified in the <strong>Ouidad Method</strong> for
+				curly hair. The techniques we use will transform your untamable, unmanageable curls into a wildly sexy,
+				yet totally controllable, mane.
 
-					<!-- Services -->
-					<section id="services" class="main style2 left dark fullscreen">
-						<div class="content box style2">
-							<header>
-								<h2>Services</h2>
-								<p>Cuts, Colors, Highlights, Balayage, Extensions, Styling, and <a style="color: #9a2542;" href="/pages/services">more!</a></p>
-							</header>
-						</div>
-					</section>
+				You won't believe the difference the right technique will make on your curls. Stop dreading them, start
+				flaunting them.
+				<br><br>
+				Call today for a consultation or appointment.
 
-		<!-- Team -->
-		<section id="team">
-			<div style="background-color: black; margin: 25px">
-				<header style="margin-bottom: 0px">
-					<h2 id="teamHeader">Our Team</h2>
-					<!-- //TODO star (like the Bangz logo) -->
+				And whether yours are loose, classic, tight, or kinky, Ouidad has the perfect product for you exact type
+				of curls. And you can pick them up right here at Bangz.
+
+				For more information on Ouidad, her technique and her products, visit the
+				<a href="https://www.ouidad.com/">website</a>
+			</p>
+		</div>
+	</section>
+
+	<!-- Three -->
+	<section id="three" class="main style2 left dark fullscreen">
+		<div class="content box style2">
+			<header>
+				<h2>Rene Furterer</h2>
+			</header>
+			<p>We are so excited to now carry the Rene Furterer hair care system at the Salon. Furterer products not
+				only look beautiful and smell wonderful, they work. Unbelievably. That's because they start at the root
+				of your hair problems. Literally.</p>
+			<p>Our stylists have begun extensive training in the Rene Furterer methodology. If your hair isn't acting,
+				growing or looking its healthiest best, give us a call. We'll help diagnose the problem, develop a
+				personalized plan to clean and exfoliate the scalp, and recommend the right blend of products for you to
+				continue your treatments at home. To learn more about Rene Furterer, his technique and his all his
+				plant-based products, visit the company's website
+				<a target="_blank" href="https://www.renefurterer.com/en/en">here</a>
+			</p>
+		</div>
+	</section>
+	<!--Reuzel-->
+	<section id="reuzel" class="main style2 left dark fullscreen">
+		<div class="content box style2">
+			<header>
+				<h2>Reuzel</h2>
+			</header>
+			<p> Guys, you get equal play here too! We now carry the full line of Reuzel men's hair & beardcare products.
+				Leen and Bertus, the creators of Reuzel started learning mens haircutting when they were just fourteen
+				years old. With their love of classic barbering and the influences of rock n’ roll, kustom kulture and
+				its sub cultures, it was inevitable that one day the pair would open “Schorem Haarsnijder en Barbier.”
+			</p>
+			<p>Schorem is a bit of a wordplay that gets lost in translation, it means “scumbags”, “bad boys” in Dutch,
+				but it is also the past tense form of “I shave him”, literally meaning “I shaved him”. The “Haarsnijder
+				en Barbier” means Haircutter and Barber in Dutch.​ To learn more about all of the fantastic Reuzel
+				products, visit the company's website
+				<a target="_blank" href="https://www.reuzel.com/">here</a>
+			</p>
+		</div>
+	</section>
+	<!--Aluram-->
+	<div id="aluramWrapper">
+		<section class="main style2 left dark fullscreen">
+			<div class="content box style2">
+				<header>
+					<h2>Aluram</h2>
 				</header>
+				<p> From day one we knew Aluram was going to be
+
+					Different. It had to be different.
+
+					So we set out to "build the brand backwards” with a simple formula: Prioritize salons & stylists
+					first.
+
+					Salons are the heart of our industry and wonderful assets to our community. Beyond beautiful hair,
+					many
+					stylists are our friends and on some days our therapists too. So we decided to start something
+					special-
+					a relationship where we developed, listened and grew with salons. We heard: “build us an elevated
+					brand
+					with clean ingredients, that is accessible to all” and we went to work.
+
+				</p>
+				<p>
+					It was love at first blowout. The passion for Aluram has been astounding, and our small-but-mighty
+					line
+					is growing. We also have a constant reminder of our devotion to salons and clean beauty right in our
+					name: Aluram is Marula backwards! It’s fun to see people’s faces when the realization “clicks”. It's
+					a
+					reflection of our backwards approach and creating beauty beyond compromise. Click
+					<a target="_blank" href="https://www.alurambeauty.com/">here</a> to learn more.
+				</p>
 			</div>
-			<!-- grid container -->
-			<div id="teamGrid">
-				<div>
-					<div class= "stylistWrapper">
-						<!--Placeholder image-->
-						<img class="stylistImage2" src="./public/images/tammy_headshot_mask.png">
-						<div>
-							<p class="nameText">Tammy Allen</p>
-							<p class="stylistBackgroundText">I knew I was going to be a stylist since I was a kid. Quite frankly, my inspiration was getting one Toni home perm too many! My mom would give my sister and I these home perms and we'd come out looking like a pack of poodles instead of the glam queens the box promised. One day I said, "That's enough! There's got to be a better way!" And the next thing you know I was a stylist. I love what I do. Every day. I love making my clients feel pretty. It's great to see them sneak peeks at themselves as they leave the salon with a smile. I remember what bad had hair feels like and I always try to think like and feel for the person in my chair.​ Follow me <span><a class="socialHandle" href="https://www.instagram.com/bangzsalon_rochester/">@bangzsalon_rochester</a></span>
-							</p>
-							<a href="/pages/tammy">
-								<button class="stylistInfoButton">Info & Prices</button>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class= "stylistWrapper">
-						<!--Placeholder image-->
-						<img class="stylistImage" src="./public/images/headshot_beth_mask.png">
-						<div>
-							<p class="nameText">Beth D'Angelo-Schroth</p>
-							<p class="stylistBackgroundText">I've had this passion for hair and beauty for as long as I can remember. From curling my Mom's hair when i was four, to cutting and coloring my Barbies' hair until they had no hair left. I love making a difference in people's lives by making them feel pretty when they leave. And just listening and talking to them for an hour or so while they're here. I strive for unlimited creativity. And that starts with listening to my clients and respecting their needs. And their hair. I'm also the new mom to an adorable baby girl, Grace Marie. And I look forward to styling her hair too. </p>
-							<a href="/pages/beth">
-								<button class="stylistInfoButton">Info & Prices</button>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class= "stylistWrapper">
-						<img class="stylistImage" src="./public/images/headshot_sofia_mask.png" alt="Sofia">
-						<div>
-							<p class="nameText">Sofia Alvarez</p>
-							<p class="stylistBackgroundText">From the moment I knew what styling hair was, it was all I wanted to do. Both of my parents were hairdressers. And even as a kid, I used to trap my family and friends in the bathroom and make them let me do their hair! Cuts. Colors. I couldn't help myself! I was obsessed. Needless to say, I went to school and learned how to do it right, and now I'm doing what I know I was born to do. I love changing people's looks and attitudes. Creating looks that are artistic and modern, yet maintainable is what I strive to do for each client. Face it, great hair makes people happy. And that makes me happy! </p>	
-							<a href="/pages/sofia">
-								<button class="stylistInfoButton">Info & Prices</button>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class= "stylistWrapper">
-						<img class="stylistImage" src="./public/images/headshot_jackie_mask.png" alt="Jackie">
-						<div>
-							<p class="nameText">Jackie Varone</p>
-							<p class="stylistBackgroundText">As the daughter of a Master Barber, I grew up hanging around the barber chair. I began to cut hair at 13 years old, basically for anyone that would let me. To my surprise, they kept coming back for more! I don't believe people should have to settle for a bad haircut, and simply be told," It's only hair, it will grow back!" My philosophy is this..."You have to look in the mirror everyday, and either love, or hate your hair!" So I strive to give my clients -- both men and women -- The Perfect Cut, and keep them coming back. So don't settle, don't make today another "Hat Day." Love your hair!
-							</p>
-							<a href="/pages/jackie">
-								<button class="stylistInfoButton">Info & Prices</button>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class="stylistWrapper">
-						<img class="stylistImage" src="./public/images/shelia_headshot_mask.png" alt="Sheila">
-						<div>
-							<p class="nameText">Sheila Peters</p>
-							<p class="stylistBackgroundText">I don’t remember if its when I mixed food coloring with flour to color the neighborhood kids hair or when my friend’s mother called mine upset that I cut her “Chrissy” doll’s hair; shortly after that I spent my Saturdays at my father’s salon sweeping floors and folding towels. 39 years later I still sweep floors and fold towels however, now its after haircuts, coloring, highlights, perms and creating other looks on both women and men. Adding beauty and confidence to people’s looks is my daily goal. Follow me <span><a class="socialHandle" href="https://www.instagram.com/sheilapetershair/">@sheilapetershair</a></span>
-							</p>
-							<a href="/pages/shelia">
-								<button class="stylistInfoButton">Info & Prices</button>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class="stylistWrapper">
-						<img class="stylistImage2" src="./public/images/tessa_headshot_mask.png">
-						<div>
-							<p class="nameText">Tessa Glaze</p>
-							<p class="stylistBackgroundText">Ever since I was little, I always knew that I wanted to do hair. Watching my mom and how hard she worked to be where she is today inspired me to follow in her footsteps . Seeing how a haircut, some highlights or a complete makeover could make a person light up in the chair was the best thing to see. I knew from then on that I wanted to be a part of that and make people feel and look beautiful!  The salon and all the ladies that work here are family to me, and we will treat you just like family too. Follow me <span><a class="socialHandle" href="https://www.instagram.com/tessa_does_hair/">@tessa_does_hair</a></span></p>
-							<a href="/pages/tessa">
-								<button class="stylistInfoButton">Info & Prices</button>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class="stylistWrapper">
-						<!--Rebecca's image here-->
-							<img id="rebeccaImage" src="./public/images/thumbs/05.jpg" style="height: 440px; width: 320px; visibility: hidden;">
-						<div>
-							<p class="nameText">Rebecca Rose</p>
-							<p class="stylistBackgroundText">As long as I can remember, beauty, style and fashion have always been passions of mine -- head to toe. So it's not much of a wonder that I got into doing manis and pedis. (I have to confess, I'm kind of disappointed my young daughter doesn't feel the same way.) Manis and pedis complete your look, lets you feel polished and pulled together. And it's not just  a summer thing -- a manicure or pedicure is a great way to take care of yourself year round. I love to meet new people and make you feel good with a fresh, new manicure or totally relaxed in my pedicure chair as I pamper you. I can't wait to meet you!​​​ <br><br> Rebecca owns <strong>Lula Nails</strong>, located at 1801 Penfield Road, right around the corner from our salon. Give her a call at<a style="color: #9a2442; margin-left: 5px" href="tel:5857030319"><strong>(585)703-0319</strong></a> to make an appointment!</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- <a href="#products" class="button style2 down anchored">Next</a> -->
+
 		</section>
-		<!-- Products -->
-			<section id="products" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Ouidad</h2>
-					</header>
-					<p>We were the first salon in Rochester trained and certified in the <strong>Ouidad Method</strong> for curly hair. The techniques we use will transform your untamable, unmanageable curls into a wildly sexy, yet totally controllable, mane. 
-
-						You won't believe the difference the right technique will make on your curls. Stop dreading them, start flaunting them. 
-						<br><br>
-						Call and ask for <a href="/pages/tammy"><strong>Tammy</strong></a> , <a href="/pages/sofia"><strong>Sofia</strong></a>, or <a href="/pages/jackie"><strong>Jackie</strong></a> today for a consultation or appointment.
-						
-						And whether yours are loose, classic, tight, or kinky, Ouidad has the perfect product for you exact type of curls. And you can pick them up right here at Bangz.
-						
-						For more information on Ouidad, her technique and her products, visit the 
-						<a href="https://www.ouidad.com/">website</a>
-					</p>
-				</div>
-			</section>
-
-			<!-- Three -->
-			<section id="three" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Rene Furterer</h2>
-					</header>
-					<p>We are so excited to now carry the Rene Furterer hair care system at the Salon. Furterer products not only look beautiful and smell wonderful, they work. Unbelievably. That's because they start at the root of your hair problems.  Literally.</p>
-					<p>Our stylists have begun extensive training in the Rene Furterer methodology. If your hair isn't acting, growing or looking its healthiest best, give us a call. We'll help diagnose the problem, develop a personalized plan to clean and exfoliate the scalp, and recommend the right blend of products for you to continue your treatments at home. To learn more about Rene Furterer, his technique and his all his plant-based products, visit the company's website
-						<a target="_blank" href="https://www.renefurterer.com/en/en">here</a>
-					</p>
-				</div>
-			</section>
-			<!--Reuzel-->
-			<section id="reuzel" class="main style2 left dark fullscreen">
-				<div class="content box style2">
-					<header>
-						<h2>Reuzel</h2>
-					</header>
-					<p> Guys, you get equal play here too! We now carry the full line of Reuzel men's hair & beardcare products.
-						Leen and Bertus, the creators of Reuzel started learning mens haircutting when they were just fourteen years old. With their love of classic barbering and the influences of rock n’ roll, kustom kulture and its sub cultures, it was inevitable that one day the pair would open “Schorem Haarsnijder en Barbier.”</p>
-					<p>Schorem is a bit of a wordplay that gets lost in translation, it means “scumbags”, “bad boys” in Dutch, but it is also the past tense form of “I shave him”, literally meaning “I shaved him”. The “Haarsnijder en Barbier” means Haircutter and Barber in Dutch.​ To learn more about all of the fantastic Reuzel products, visit the company's website
-						<a target="_blank" href="https://www.reuzel.com/">here</a>
-					</p>
-				</div>
-			</section>
-
+		<div id="aluramRight">
 			
-			<!-- Footer -->
-			<footer id="footer">
+		</div>
+	</div>
 
-				<!-- Icons -->
-					<ul class="icons">
-						<li>Connect with us!</li>
-						<li><a target="_blank" href="https://www.facebook.com/BangzSalonRochester/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a target="_blank" href="https://twitter.com/bangzrochester" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a target="_blank" href="https://www.instagram.com/bangzsalon_rochester/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
-					<div>807 Liberty Street, Penfield, NY 14526</div>
-					<div>(585) 248-8140</div>
 
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Bangz Salon</li><li id="year"><script>getCurrentYear();</script></li>
-					</ul>
 
-			</footer>
 
-		<!-- Scripts -->
-		<script src="public/js/jquery.min.js"></script>
-		<script src="public/js/jquery.poptrox.min.js"></script>
-		<script src="public/js/jquery.scrolly.min.js"></script>
-		<script src="public/js/jquery.scrollex.min.js"></script>
-		<script src="public/js/browser.min.js"></script>
-		<script src="public/js/breakpoints.min.js"></script>
-		<script src="public/js/util.js"></script>
-		<script src="public/js/main.js"></script>
-		<script src="public/js/date.js"></script>
-	</body>
+	<!-- Footer -->
+	<footer id="footer">
+
+		<!-- Icons -->
+		<ul class="icons">
+			<li>Connect with us!</li>
+			<li><a target="_blank" href="https://www.facebook.com/BangzSalonRochester/" class="icon fa-facebook"><span
+						class="label">Facebook</span></a></li>
+			<li><a target="_blank" href="https://twitter.com/bangzrochester" class="icon fa-twitter"><span
+						class="label">Twitter</span></a></li>
+			<li><a target="_blank" href="https://www.instagram.com/bangzsalon_rochester/"
+					class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+		</ul>
+		<div>807 Liberty Street, Penfield, NY 14526</div>
+		<div>(585) 248-8140</div>
+
+		<!-- Menu -->
+		<ul class="menu">
+			<li>&copy; Bangz Salon</li>
+			<li id="year">
+				<script>getCurrentYear();</script>
+			</li>
+		</ul>
+
+	</footer>
+
+	<!-- Scripts -->
+	<script src="public/js/jquery.min.js"></script>
+	<script src="public/js/jquery.poptrox.min.js"></script>
+	<script src="public/js/jquery.scrolly.min.js"></script>
+	<script src="public/js/jquery.scrollex.min.js"></script>
+	<script src="public/js/browser.min.js"></script>
+	<script src="public/js/breakpoints.min.js"></script>
+	<script src="public/js/util.js"></script>
+	<script src="public/js/main.js"></script>
+	<script src="public/js/date.js"></script>
+</body>
+
 </html>
