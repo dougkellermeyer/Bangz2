@@ -2797,7 +2797,11 @@ body.is-touch .main {
 }
 
 .socialHandle {
-	color: #e91e63
+	color: black;
+    background-color: #e91e63;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px;
 }
 
 /* Team */
