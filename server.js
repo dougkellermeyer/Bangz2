@@ -45,6 +45,10 @@ app.get('/pages/rickey', function(req, res) {
     res.sendFile(path.join(__dirname + '/pages/rickey.html'));
 });
 
+app.get('/pages/dawn', function(req, res) {
+    res.sendFile(path.join(__dirname + '/pages/dawn.html'));
+});
+
 //serve static files
 app.use('/public',express.static(__dirname + '/public'));
 
