@@ -2503,6 +2503,11 @@ body.is-touch .main {
 		max-width: calc(100% - 1.5em);
 	}
 
+	.stylistImage2 {
+		margin-right: 0 !important;
+
+	}
+
 }
 
 /* Footer */
